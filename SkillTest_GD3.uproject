@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "SkillTest_M4",
+			"Name": "SkillTest_GD3",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
@@ -17,10 +17,6 @@
 			"TargetAllowList": [
 				"Editor"
 			]
-		},
-		{
-			"Name": "HoudiniEngine",
-			"Enabled": false
 		}
 	]
 }

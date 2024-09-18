@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class SkillTest_M4 : ModuleRules
+public class SkillTest_GD3 : ModuleRules
 {
-	public SkillTest_M4(ReadOnlyTargetRules Target) : base(Target)
+	public SkillTest_GD3(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

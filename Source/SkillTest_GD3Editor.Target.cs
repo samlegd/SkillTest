@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class SkillTest_M4EditorTarget : TargetRules
+public class SkillTest_GD3EditorTarget : TargetRules
 {
-	public SkillTest_M4EditorTarget( TargetInfo Target) : base(Target)
+	public SkillTest_GD3EditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
-		ExtraModuleNames.Add("SkillTest_M4");
+		ExtraModuleNames.Add("SkillTest_GD3");
 	}
 }
